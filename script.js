@@ -128,6 +128,7 @@ display()
 
 const equals = document.querySelector('#equals')
 const clear = document.querySelector('#clear')
+const deleteBtn = document.querySelector('#delete')
 
 function calculate() {
     
@@ -190,3 +191,17 @@ function decimals(int) {
         } else return int
     } else return int
 }
+
+function deletetion() {
+    let ans = displayed.textContent.split("")
+    ans.pop()
+    ans = ans.join("")
+    console.log(saveCalc)
+    return ans
+}
+
+deleteBtn.addEventListener('click', (e) => {
+    displayed.textContent = deletetion()
+    a = displayed.textContent
+})
+
