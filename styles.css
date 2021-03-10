@@ -1,0 +1,42 @@
+button {
+    padding: 10px;
+    margin: 1px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    background-color: gold;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.secondColumn {
+    margin-left: 3px;
+    
+}
+   
+button.operators, button#clear, button#delete {
+    background-color:honeydew;
+}
+
+
+#equals {
+    position: absolute;
+    margin-left: 5px;
+    width: 160px;
+}
+
+#container {
+    position: relative;
+    align-content: center;
+    left: 40%;
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+    border: solid gainsboro;
+    border-width: 5px;    
+    padding: 5px;
+}

@@ -202,6 +202,11 @@ function deletetion() {
 
 deleteBtn.addEventListener('click', (e) => {
     displayed.textContent = deletetion()
-    a = displayed.textContent
+    if (saveCalc.length < 1) {
+        a = displayed.textContent
+
+    } else {
+        b = displayed.textContent
+    }
 })
 
