@@ -189,7 +189,15 @@ function decimals(int) {
             int = parseFloat(int)
             return int
         } else return int
-    } else return int
+    } else {
+        let ans = int.split("")
+        if (ans.length > 12) {
+            int = Number(int)
+            int = int.toPrecision(12)
+            int = parseFloat(int)
+            return int
+        } else return int
+    }
 }
 
 function deletetion() {

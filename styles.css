@@ -32,11 +32,39 @@ button.operators, button#clear, button#delete {
 #container {
     position: relative;
     align-content: center;
-    left: 40%;
+    margin: auto;
     margin-top: 100px;
     width: 300px;
     height: 300px;
-    border: solid gainsboro;
+    border: solid transparent;
+    border-radius: 4px;
     border-width: 5px;    
-    padding: 5px;
+    padding: 5px 0px 30px 20px;
+    box-shadow: 0 0 4px 2px goldenrod;
+    background-color:ghostwhite;
+}
+
+#screendisplay {
+    background-color: beige;
+    border: 2px solid goldenrod;
+    border-radius: 2px;
+    box-shadow: silver 0px 0px 2px 2px;
+    width: 262px;
+    height: 45px;
+    padding: 0px 0px 5px 5px;
+    margin: 15px 12px 20px 2px;
+    font-size: 40px;
+}
+
+#title {
+    /*border: 1px solid black;*/
+    width: max-content;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: -50px;
+    font-size: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: wheat;
+    text-shadow: rgb(0, 0, 0, .6) 1px 1px 4px;
+    
 }
